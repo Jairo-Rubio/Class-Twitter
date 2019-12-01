@@ -1,0 +1,66 @@
+body{
+    background-color: #00ACEE;
+    height: 100vh;
+    width: 100hh;
+    margin: 0 auto;
+}
+
+#root {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+    font-size: 30px;
+}
+#timeline{
+    overflow-y:auto;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    width: 65px;
+    height: 35px;
+}
+
+.tweet_view {
+    width: 80%;
+    font-family: Chalkduster, fantasy;
+    font-size: 16px;
+    color: white;
+    line-height: 16px;
+    border-color: #eee #ddd #bbb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.user_name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.create_time {
+    font-size: 12px;
+}
+
+ .like_button, .unlike_button, .retweet_button,.reply_button, #reply_submit, .delete_button, .edit_button, #edit_submit, #cancel, #post_submit, #retweet_submit{
+    float: left;
+}
+
+textarea {
+    width: 80%;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+
+}
